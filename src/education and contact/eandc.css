@@ -1,0 +1,98 @@
+.my-education{
+    width: 50%;
+    height: fit-content;
+    padding: 2rem 3rem;
+  
+  }
+.my-contact{
+    width: 50%;
+    height: fit-content;
+    padding: 2rem 3rem; 
+  }
+.eandc{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 3rem;
+
+}  
+@media screen and (max-width:899px){
+    .eandc{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .my-contact{
+        padding: 2rem 0.5rem 2rem 3rem;
+    }
+    .my-education{
+        padding: 2rem 0rem 2rem 0rem ;
+    }
+}
+.contact-links{
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    list-style-type: none;
+}
+.links a{
+    color: #c4b3b3;
+     border: none;
+    border-radius: 5px;
+    font-size: 24px;
+    text-decoration: none;
+   
+    
+}
+.batch{
+    color:#c4b3b3;
+    font-size: 24px;
+}
+.college{
+    color: #c4b3b3;
+    font-size: 22px;
+}
+.branch{
+    color: #c4b3b3;
+    font-size: 22px;
+}
+.education-title{
+    font-size: 67px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'IBM Plex Serif', serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-block-end: 0.67rem;
+    margin-block-start: 0.67rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    color: #f5f8fa;
+    text-decoration: underline 2px solid grey;
+    /* letter-spacing: 5px; */
+}
+
+.contact-title{
+    font-size: 67px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'IBM Plex Serif', serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-block-end: 0.67rem;
+    margin-block-start: 0.67rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    color: #f5f8fa;
+    text-decoration: underline 2px solid grey;
+    /* letter-spacing: 5px; */
+}

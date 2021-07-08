@@ -1,0 +1,54 @@
+.about-skill{
+    width: 100%;
+    height: fit-content;
+    padding: 2rem 3rem;
+  
+  }
+  .skill-title{
+      font-size: 67px;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      /* font-family: 'Times New Roman', Times, serif; */
+      /* font-family: 'IBM Plex Serif', serif; */
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 200;
+      margin-block-end: 0.67rem;
+      margin-block-start: 0.67rem;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+      color: #f5f8fa;
+      text-decoration: underline 2px solid grey;
+      /* letter-spacing: 5px; */
+  }
+  .skills{
+     border:none;
+     border-radius: 25px;
+      margin: 3rem 5rem 3rem 5rem;
+      background-color: lemonchiffon;
+  }
+  .skills img{
+      width: 10%;
+      margin:3rem 7% 3rem 7%;
+      
+      
+  }
+  @media screen and (max-width:750px )and (min-width:420px){
+      .skills img{
+          width: 15%;
+          margin: 2rem 10% 2rem 10%;
+      }
+  }
+  @media screen and (max-width:420px){
+      .skills img{
+          width:25%;
+          margin: 2rem 5% 2rem 5%;
+      }
+      .skills{
+          margin: 1rem 2rem 1rem 2rem;
+      }
+      .about-skill{
+          padding: 1rem 1rem 1rem 3rem;
+      }
+  }

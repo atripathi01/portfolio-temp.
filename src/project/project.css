@@ -1,0 +1,163 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.my-work{
+    width: 100%;
+    height: fit-content;
+    padding: 2rem 3rem;
+  
+  }
+  .work-title{
+    font-size: 67px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'IBM Plex Serif', serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-block-end: 0.67rem;
+    margin-block-start: 0.67rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    color: #f5f8fa;
+    text-decoration: underline 2px solid grey;
+    /* letter-spacing: 5px; */
+}
+/* .logo {
+   box-shadow: 1px 1px 2px 2px #888888; 
+   border-radius: 18px;
+  
+}
+.logo1{
+   box-shadow: 1px 1px 2px 2px #888888;
+    border-radius: 18px;
+    
+} */
+.explain1 span{
+    color: khaki;
+}
+.explain2 span{
+    color: khaki;
+}
+@media screen and (max-width:575px){
+    .my-work{
+        padding: 2rem 0rem 2rem 0rem;
+    }
+    .whole{
+        margin: 6rem 0rem 3rem 0rem;
+    }
+    
+}
+.whole{
+    margin: 6rem 3rem 3rem 3rem;
+    /* background-color:#f5f8fa ; */
+    border-radius: 15px;
+    border: none;
+    height: fit-content;
+    color:#c4b3b3
+}
+.containerr {
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+    
+
+}
+.explain1{
+  margin: 3rem 5rem 3rem 10rem;
+  font-size: 22px;
+  /* margin-bottom: 3rem;
+  margin-left   : 10rem; */
+    
+}
+
+button{
+   text-decoration: none;
+   color:white;
+   background-color: green;
+   border: none;
+  
+   
+
+}
+
+button a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    padding: .4rem 1rem .4rem 1rem;
+    
+    
+
+}
+button:hover{
+    background-color: rgb(8, 92, 8);
+    transform: scaleZ(3px);
+}
+button a:hover{
+    color: white;
+    text-decoration: none;
+}
+.explain2{
+ margin: 3rem 10rem 3rem 5rem;
+ margin-bottom: 3rem;
+ font-size: 22px;
+ margin-right: 10rem;
+ 
+}
+.contain{
+    padding: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+    height: fit-content;
+   
+}
+@media screen and (max-width:850px){
+    .contain{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .containerr{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .explain1{
+        margin: 0;
+        margin-top: 3rem;
+
+    }
+    .explain2{
+        margin: 0;
+        margin-top: 3rem;
+    }
+    button{
+        margin-top: 3rem;
+    }
+}
+
+.logo img{
+    width: 20rem;
+    height: auto;
+   
+}
+.logo img .animate__animated .animate__fadeInLeftBig{
+    animation: fadeInLeftBig;
+    --animation-duration: 2s;
+    --animation-delay: 3s;
+}
+.logo1 img .animate__animated .animate__fadeInRightBig{
+    animation: fadeInRightBig ;
+    --animation-duration: 2s;
+    --animation-delay: 3s;
+}
+.logo1 img{
+    width: 20rem;
+    height: auto;
+}

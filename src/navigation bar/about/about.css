@@ -1,0 +1,54 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.about-me{
+  width: 100%;
+  height: fit-content;
+  padding: 2rem 3rem;
+
+}
+.about-title{
+    font-size: 67px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Times New Roman', Times, serif; */
+    /* font-family: 'IBM Plex Serif', serif; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+    margin-block-end: 0.67rem;
+    margin-block-start: 0.67rem;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    color: #f5f8fa;
+    text-decoration: underline 2px solid grey;
+    /* letter-spacing: 5px; */
+}
+.about-myself{
+    /* margin-top: 3rem; */
+   font-size: 26px ;
+   color: #c4b3b3;
+   text-align: center;
+   align-items: center;
+   font-weight: 300;
+   padding: 4rem;
+   margin-left: 1rem;
+   margin-right: 1rem;
+   /* letter-spacing: 1px; */
+
+}
+@media screen and (max-width:575px){
+    .about-me{
+        padding: 2rem .5rem 2rem 3rem;
+    }
+    .about-myself{
+        padding: 0;
+    }
+    
+}
+.mainsss{
+    color:khaki;
+}
