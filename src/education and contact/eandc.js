@@ -18,7 +18,7 @@ const ec=()=>{
              <li className="links"><a href="https://www.linkedin.com/in/ayush-tripathi-1341651b6/">Linkedin</a></li>
              <li className="links"><a href="https://github.com/atripathi01">Github</a></li>
              <li className="links"><a href="mailto:ayushtripathi4113@gmail.com">Mail</a></li>
-             <li className="links"><a href="https://drive.google.com/file/d/11zqmgVq-J0tVvj_glxl8KBV-r72Vhljm/view?usp=sharing">Resume</a></li>
+             <li className="links"><a href="https://drive.google.com/file/d/1ZMpA69HOikhJCwib-5YJiV6-AyMxUVtO/view?usp=sharing">Resume</a></li>
          </ul>
     </div>
     </div>
